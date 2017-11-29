@@ -1,0 +1,29 @@
+{
+  "name": "ewd-application-mock",
+  "version": "1.0.0",
+  "description": "The example of application module for QEWD",
+  "main": "index.js",
+  "license": "Apache-2.0",
+  "author": "Alexey Kucherenko",
+  "homepage": "https://github.com/killmenot/ewd-application-mock#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/killmenot/ewd-application-mock.git"
+  },
+  "bugs": {
+    "url": "https://github.com/killmenot/ewd-application-mock/issues"
+  },
+  "scripts": {
+    "lint": "jshint lib index.js"
+  },
+  "pre-commit": [
+    "lint"
+  ],
+  "dependencies": {
+    "debug": "^3.1.0"
+  },
+  "devDependencies": {
+    "jshint": "^2.9.5",
+    "pre-commit": "^1.2.2"
+  }
+}
